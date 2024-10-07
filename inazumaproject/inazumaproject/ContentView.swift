@@ -30,7 +30,7 @@ struct ContentView: View {
                                     image.image?.resizable().scaledToFit()
                                         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                                         .aspectRatio(contentMode: .fit)
-                                        .frame(width: 200)
+                                        .frame(width: 2, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
                                 }
                                 Text(p.nome!)
                                     .foregroundStyle(.black)
