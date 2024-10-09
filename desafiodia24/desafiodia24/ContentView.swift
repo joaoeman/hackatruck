@@ -13,7 +13,7 @@ struct musica: Identifiable{
     var id: Int
     var ima = ""
 }
-var listas = [ musica(nome: "Pontes Indestrutiveis", autor: "Charlie Brown Jr.", id: 1,ima :"zoio"), musica(nome: "Zoio de Lula", autor: "Charlie Brown Jr.",id: 2, ima: "zoio"), musica(nome: "Só por uma noite", autor: "Charlie Brown Jr.",id: 3,ima:"zoio"), musica(nome: "teste4", autor: "teste2",id: 4),musica(nome: "teste5", autor: "teste2",id: 5),musica(nome: "teste6", autor: "teste2",id: 6),musica(nome: "teste7", autor: "teste2",id: 7),musica(nome: "teste8", autor: "teste2",id: 8),musica(nome: "teste9", autor: "teste2",id: 9),musica(nome: "teste10", autor: "teste2",id: 10)]
+var listas = [musica(nome: "Pontes Indestrutiveis", autor: "Charlie Brown Jr.", id: 1,ima :"zoio"), musica(nome: "Zoio de Lula", autor: "Charlie Brown Jr.",id: 2, ima: "zoio"), musica(nome: "Só por uma noite", autor: "Charlie Brown Jr.",id: 3,ima:"zoio"), musica(nome: "teste4", autor: "teste2",id: 4),musica(nome: "teste5", autor: "teste2",id: 5),musica(nome: "teste6", autor: "teste2",id: 6),musica(nome: "teste7", autor: "teste2",id: 7),musica(nome: "teste8", autor: "teste2",id: 8),musica(nome: "teste9", autor: "teste2",id: 9),musica(nome: "teste10", autor: "teste2",id: 10)]
 
 struct ContentView: View {
     
